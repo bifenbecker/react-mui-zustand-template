@@ -1,8 +1,10 @@
 {
+  "include": ["src", "vite.config.ts"],
   "compilerOptions": {
     "baseUrl": ".",
+    "target": "es6",
     "paths": {
-      "src/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   }
 }
